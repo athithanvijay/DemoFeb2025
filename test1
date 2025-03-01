@@ -1,5 +1,5 @@
-##import xmlrpc
-##from SimpleXMLRPCServer import SimpleXMLRPCServer
+import xmlrpc
+from SimpleXMLRPCServer import SimpleXMLRPCServer
 
 def is_even(n):
     return n%2 == 0
